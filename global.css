@@ -346,6 +346,10 @@
     margin: 20px;
 }
 
+.csa-vgap-small {
+    margin: 5px;
+}
+
 /* FOOTER */
 .csa-card-footer {
     background-color: #000;
@@ -374,7 +378,7 @@
     justify-content: end;
 }
 
-.csa-powered-by img {
+.csa-poweredy-img {
     width: 15%;
 }
 
@@ -458,12 +462,17 @@
     width: 86%;
 }
 
+.csa-result-container--mobile .csa-poweredy-img {
+    width: 25%;
+}
+
+
 .csa-result-container {
     display: flex;
     flex-direction: column;
 }
 
-.csa-result-container--mobile{
+.csa-result-container--mobile {
     display: none;
 }
 
