@@ -370,25 +370,14 @@
 .csa-powered-by {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: right;
+    flex-direction: row;
+    justify-content: end;
 }
 
-.csa-powered-by-line {
-    text-align: right;
+.csa-powered-by img {
+    width: 15%;
 }
 
-.csa-powered-by-line1 {
-    font-family: 'Canela', Georgia, 'Times New Roman', Times, serif;
-    margin-right: 3rem;
-    font-size: 0.8rem;
-    color: #686868;
-}
-
-.csa-powered-by-line2 {
-    font-weight: 700;
-    color: #686868;
-}
 /* FOOTER */
 
 /******************************************/
